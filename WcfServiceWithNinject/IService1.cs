@@ -9,21 +9,21 @@ using System.Text;
 namespace WcfServiceWithNinject
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
-[ServiceContract]
-public interface IService1
-{
+    [ServiceContract]
+    public interface IService1
+    {
 
-    [OperationContract]
-    string TellMeHowManyWidgets();
+        [OperationContract]
+        string TellMeHowManyWidgets();
 
-    [OperationContract]
-    string GetData(int value);
+        [OperationContract]
+        string GetData(int value);
 
-    [OperationContract]
-    CompositeType GetDataUsingDataContract(CompositeType composite);
+        [OperationContract]
+        CompositeType GetDataUsingDataContract(CompositeType composite);
 
-    // TODO: Add your service operations here
-}
+        // TODO: Add your service operations here
+    }
 
 
     // Use a data contract as illustrated in the sample below to add composite types to service operations.
