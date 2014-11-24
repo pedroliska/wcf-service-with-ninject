@@ -2,3 +2,4 @@
 /WcfServiceWithNinject/*.user
 /WcfServiceWithNinject/obj
 /WcfServiceWithNinject/bin
+/packages
